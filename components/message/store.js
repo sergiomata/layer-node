@@ -1,13 +1,13 @@
 const listMessage = [];
 
-const addmMssage = (message) => {
+const addMessage = (message) => {
     listMessage.push(message);
 }
 
 const getMessage = () => {
     return listMessage;
 }
-modules.exports = {
+module.exports = {
     add: addMessage,
     list: getMessage,
 }
